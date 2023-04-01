@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TravelZen</string>
+    <string name="enter">Enter</string>
+    <string name="add_travel">Add travel</string>
+    <string name="destiny">destiny</string>
+    <string name="description">description</string>
+    <string name="rate">rate</string>
+    <string name="save">save</string>
+    <string name="rate_title">rate</string>
+    <string-array name="rating_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>

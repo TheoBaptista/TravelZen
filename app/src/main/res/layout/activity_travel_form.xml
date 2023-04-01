@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".ui.activity.TravelFormActivity">
+
+        <EditText
+            android:id="@+id/activity_travel_form_destiny"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:hint="@string/destiny"
+            android:inputType="text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/activity_travel_form_description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/description"
+            android:inputType="text"
+            app:layout_constraintEnd_toEndOf="@+id/activity_travel_form_destiny"
+            app:layout_constraintStart_toStartOf="@+id/activity_travel_form_destiny"
+            app:layout_constraintTop_toBottomOf="@+id/activity_travel_form_destiny" />
+
+        <TextView
+            android:id="@+id/activity_travel_form_rate_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/rate_title"
+            app:layout_constraintEnd_toEndOf="@+id/activity_travel_form_description"
+            app:layout_constraintStart_toStartOf="@+id/activity_travel_form_description"
+            app:layout_constraintTop_toBottomOf="@+id/activity_travel_form_description"/>
+
+
+        <Spinner
+            android:id="@+id/activity_travel_form_rate_spinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@+id/activity_travel_form_rate_title"
+            app:layout_constraintStart_toStartOf="@+id/activity_travel_form_rate_title"
+            app:layout_constraintTop_toBottomOf="@+id/activity_travel_form_rate_title"/>
+
+        <Button android:id="@+id/activity_travel_form_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="@string/save"
+            app:layout_constraintVertical_bias="1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_travel_form_rate_spinner" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
