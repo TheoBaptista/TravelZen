@@ -7,6 +7,7 @@
     <string name="rate">rate</string>
     <string name="save">save</string>
     <string name="rate_title">rate</string>
+    <string name="share_travel">Share travel</string>
     <string-array name="rating_array">
         <item>1</item>
         <item>2</item>

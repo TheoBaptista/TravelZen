@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
         val mainButton = findViewById<Button>(R.id.activity_main_enter_button)
 
         mainButton.setOnClickListener {
-            val intent = Intent(this,ListTravels::class.java)
+            val intent = Intent(this, ListTravelsActivity::class.java)
             startActivity(intent)
         }
     }

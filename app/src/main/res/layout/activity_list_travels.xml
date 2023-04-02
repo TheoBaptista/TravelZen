@@ -4,7 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.activity.ListTravels">
+    tools:context=".ui.activity.ListTravelsActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/activity_travel_list_recyclerView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:listitem="@layout/travel_item" />
 
     <Button
         android:id="@+id/activity_list_travels_add_travel_button"
