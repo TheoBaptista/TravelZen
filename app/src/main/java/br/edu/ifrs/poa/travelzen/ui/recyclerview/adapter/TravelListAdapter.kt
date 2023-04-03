@@ -54,7 +54,7 @@ class TravelListAdapter(
                 putExtra(
                     Intent.EXTRA_TEXT, "My destiny: ${travel.destiny} " +
                             "\nWhat i think about this destiny: ${travel.description}" +
-                            "\nMy rating of this destiny: ${travel.rate}"
+                            "\nMy review  of this destiny: ${travel.rate}"
                 )
             }
             holder.itemView.context.startActivity(Intent.createChooser(emailIntent, "Send email"))

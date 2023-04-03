@@ -9,6 +9,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#2196F3"
         tools:context=".ui.activity.TravelFormActivity">
 
         <EditText
@@ -39,7 +40,7 @@
             android:text="@string/rate_title"
             app:layout_constraintEnd_toEndOf="@+id/activity_travel_form_description"
             app:layout_constraintStart_toStartOf="@+id/activity_travel_form_description"
-            app:layout_constraintTop_toBottomOf="@+id/activity_travel_form_description"/>
+            app:layout_constraintTop_toBottomOf="@+id/activity_travel_form_description" />
 
 
         <Spinner
@@ -48,18 +49,19 @@
             android:layout_height="wrap_content"
             app:layout_constraintEnd_toEndOf="@+id/activity_travel_form_rate_title"
             app:layout_constraintStart_toStartOf="@+id/activity_travel_form_rate_title"
-            app:layout_constraintTop_toBottomOf="@+id/activity_travel_form_rate_title"/>
+            app:layout_constraintTop_toBottomOf="@+id/activity_travel_form_rate_title" />
 
-        <Button android:id="@+id/activity_travel_form_button"
+        <Button
+            android:id="@+id/activity_travel_form_button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
             android:text="@string/save"
-            app:layout_constraintVertical_bias="1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/activity_travel_form_rate_spinner" />
+            app:layout_constraintTop_toBottomOf="@+id/activity_travel_form_rate_spinner"
+            app:layout_constraintVertical_bias="1" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
