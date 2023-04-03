@@ -81,7 +81,7 @@ class TravelFormActivity : AppCompatActivity() {
         var description = fieldDescription.text.toString()
 
         if (description.isBlank()){
-            description = "don´t have description"
+            description = "Don't have description"
         }
 
         return Travel(

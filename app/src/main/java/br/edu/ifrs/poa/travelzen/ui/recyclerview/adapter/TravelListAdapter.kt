@@ -26,11 +26,11 @@ class TravelListAdapter(
 
         fun bind(travel: Travel) {
             val destiny = itemView.findViewById<TextView>(R.id.destiny_travel_item)
-            destiny.text = travel.destiny
+            destiny.text = "Destiny: ${travel.destiny}"
             val description = itemView.findViewById<TextView>(R.id.description_travel_item)
-            description.text = travel.description
+            description.text = "Description: ${travel.description}"
             val rate = itemView.findViewById<TextView>(R.id.rate_travel_item)
-            rate.text = travel.rate
+            rate.text = "Rate: ${travel.rate}"
         }
 
     }

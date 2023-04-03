@@ -8,6 +8,8 @@
     <string name="save">save</string>
     <string name="rate_title">rate</string>
     <string name="share_travel">Share travel</string>
+    <string name="travelzen_icon">TravelZen icon</string>
+    <string name="travelzen">TravelZen</string>
     <string-array name="rating_array">
         <item>1</item>
         <item>2</item>
